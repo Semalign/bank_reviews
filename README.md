@@ -2,7 +2,7 @@
 
 A data-driven fintech consulting simulation project evaluating customer feedback on Ethiopian banks' mobile applications. The analysis includes data scraping, sentiment analysis, thematic NLP, and structured database storage using Oracle DB, culminating in visual insights and strategic recommendations.
 
-## 📁 Project Structure
+##  Project Structure
 
 ethiopian-bank-review-analysis/
 │
@@ -22,51 +22,51 @@ ethiopian-bank-review-analysis/
 ├── README.md                    # Project documentation (this file)
 └── .gitignore                   # Git ignore rules
 
-## 🚀 Tasks Overview
+##  Tasks Overview
 
-### ✅ Task 1 – Scraping
+###  Task 1 – Scraping
 - Scraped 500–1000 reviews per bank (CBE, BOA, Dashen) from Google Play.
 - Saved data in `data/raw/`.
 
-### ✅ Task 2 – NLP Processing
+### Task 2 – NLP Processing
 - Cleaned text, removed stopwords.
 - Applied Vader for sentiment scoring.
 - Labeled reviews as Positive, Neutral, or Negative.
 - Visualized sentiment distribution with `matplotlib` and `seaborn`.
 
-### ✅ Task 3 – Oracle DB
+###  Task 3 – Oracle DB
 - Defined schema in `schema.sql`:
   - `banks(id, name)`
   - `reviews(id, bank_id, review_text, rating, review_date, sentiment_label, sentiment_score)`
 - Loaded processed data using `cx_Oracle`.
 
-### ✅ Task 4 – Insight & Reporting
+###  Task 4 – Insight & Reporting
 - Generated visual insights on:
   - Sentiment by bank
   - Review trends over time
   - Common complaint themes
 - Saved plots to `outputs/`.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Languages**: Python, SQL
 - **Libraries**: pandas, seaborn, matplotlib, nltk, VaderSentiment, cx_Oracle
 - **Database**: Oracle XE
 - **Environment**: VS Code, Jupyter
 
-## 🧠 Insights
+##  Insights
 
 - Dashen Bank had the highest proportion of negative reviews.
 - Users frequently complained about login failures and UI issues.
 - Positive sentiment was associated with recent updates and speed improvements.
 
-## 💡 Recommendations
+##  Recommendations
 
 - **CBE**: Improve session stability and reduce crashes.
 - **BOA**: Address UI lag and bugs on Android 11+.
 - **Dashen**: Focus on onboarding issues and payment feature clarity.
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ```bash
 # Clone repository
