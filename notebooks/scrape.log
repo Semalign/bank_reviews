@@ -1,0 +1,85 @@
+2025-06-08 21:25:42,512 - INFO - Starting scraping process
+2025-06-08 21:25:42,516 - INFO - Starting scrape for CBE (net.awl.cbe.mobile)
+2025-06-08 21:25:49,177 - INFO - Starting scrape for BOA (com.tandm.boa)
+2025-06-08 21:25:56,295 - INFO - Starting scrape for Dashen (com.ics.dashenbank)
+2025-06-08 21:26:02,917 - WARNING - No reviews were collected
+2025-06-08 21:26:02,917 - INFO - Completed in 20.4 seconds
+2025-06-08 21:27:20,647 - INFO - Starting enhanced scraping process
+2025-06-08 21:27:20,648 - INFO - 
+========================================
+Starting scrape for CBE (net.awl.cbe.mobile)
+========================================
+2025-06-08 21:27:41,685 - ERROR - App verification failed for net.awl.cbe.mobile: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+2025-06-08 21:27:41,706 - ERROR - Skipping CBE - app verification failed
+2025-06-08 21:27:41,709 - INFO - 
+========================================
+Starting scrape for BOA (com.tandm.boa)
+========================================
+2025-06-08 21:28:07,506 - ERROR - App verification failed for com.tandm.boa: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+2025-06-08 21:28:07,511 - ERROR - Skipping BOA - app verification failed
+2025-06-08 21:28:07,513 - INFO - 
+========================================
+Starting scrape for Dashen (com.ics.dashenbank)
+========================================
+2025-06-08 21:28:29,221 - ERROR - App verification failed for com.ics.dashenbank: App not found(404).
+2025-06-08 21:28:29,225 - ERROR - Skipping Dashen - app verification failed
+2025-06-08 21:28:29,227 - INFO - 
+========================================
+Scraping complete. Success: 0/3 apps
+2025-06-08 21:28:29,228 - ERROR - 
+        No reviews collected. Possible reasons:
+        1. Package names are incorrect
+        2. IP address is blocked
+        3. Google Play API changes
+        4. Regional restrictions (try different country code)
+        
+2025-06-08 21:28:29,230 - INFO - Total execution time: 68.58 seconds
+2025-06-08 21:30:51,143 - INFO - Starting Ethiopian Bank Reviews Scraper
+2025-06-08 21:30:51,148 - INFO - 
+========================================
+Processing Commercial Bank (com.combanketh.mobilebanking)
+========================================
+2025-06-08 21:30:59,209 - INFO - Verified: Commercial Bank of Ethiopia
+2025-06-08 21:31:02,483 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 100)
+2025-06-08 21:31:49,835 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 200)
+2025-06-08 21:31:56,589 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 300)
+2025-06-08 21:32:01,315 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 400)
+2025-06-08 21:32:06,709 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 500)
+2025-06-08 21:32:06,720 - INFO - Successfully processed 500 reviews for Commercial Bank
+2025-06-08 21:32:06,723 - INFO - 
+========================================
+Processing Dashen Bank (com.dashen.dashensuperapp)
+========================================
+2025-06-08 21:43:07,655 - INFO - Starting Ethiopian Bank Reviews Scraper
+2025-06-08 21:43:07,656 - INFO - 
+========================================
+Processing Commercial Bank (com.combanketh.mobilebanking)
+========================================
+2025-06-08 21:43:10,341 - INFO - Verified: Commercial Bank of Ethiopia
+2025-06-08 21:43:15,359 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 100)
+2025-06-08 21:43:33,786 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 200)
+2025-06-08 21:44:36,792 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 300)
+2025-06-08 21:44:43,289 - INFO - com.combanketh.mobilebanking: Added 100 reviews (Total: 400)
+2025-06-08 21:44:43,299 - INFO - Successfully processed 400 reviews for Commercial Bank
+2025-06-08 21:44:43,301 - INFO - 
+========================================
+Processing Dashen Bank (com.dashen.dashensuperapp)
+========================================
+2025-06-08 21:44:50,848 - INFO - Verified: Dashen Bank
+2025-06-08 21:44:56,101 - INFO - com.dashen.dashensuperapp: Added 100 reviews (Total: 100)
+2025-06-08 21:45:00,851 - INFO - com.dashen.dashensuperapp: Added 100 reviews (Total: 200)
+2025-06-08 21:45:25,682 - INFO - com.dashen.dashensuperapp: Added 100 reviews (Total: 300)
+2025-06-08 21:45:30,423 - INFO - com.dashen.dashensuperapp: Added 100 reviews (Total: 400)
+2025-06-08 21:45:30,433 - INFO - Successfully processed 400 reviews for Dashen Bank
+2025-06-08 21:45:30,435 - INFO - 
+========================================
+Processing Bank of Abyssinia (com.boa.boaMobileBanking)
+========================================
+2025-06-08 21:45:38,573 - INFO - Verified: BoA Mobile
+2025-06-08 21:45:44,201 - INFO - com.boa.boaMobileBanking: Added 100 reviews (Total: 100)
+2025-06-08 21:46:03,892 - INFO - com.boa.boaMobileBanking: Added 100 reviews (Total: 200)
+2025-06-08 21:46:19,063 - INFO - com.boa.boaMobileBanking: Added 100 reviews (Total: 300)
+2025-06-08 21:46:23,584 - INFO - com.boa.boaMobileBanking: Added 100 reviews (Total: 400)
+2025-06-08 21:46:23,588 - INFO - Successfully processed 400 reviews for Bank of Abyssinia
+2025-06-08 21:46:23,607 - INFO - Saved 1200 reviews to data\raw\ethiopian_bank_reviews.csv
+2025-06-08 21:46:23,609 - INFO - Completed in 195.95 seconds
