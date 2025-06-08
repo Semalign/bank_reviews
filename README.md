@@ -46,6 +46,7 @@ ethiopian-bank-review-analysis/
   - Review trends over time
   - Common complaint themes
 - Saved plots to `outputs/`.
+![alt text](image.png)
 
 ##  Technologies Used
 
